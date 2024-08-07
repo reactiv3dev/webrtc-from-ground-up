@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Ground Up</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css">
+
+</head>
+<body>
+    <div id="streams-wrapper">
+        <video class="video-player" id="user" autoplay playsinline></video>
+        <video class="video-player" id="peer" autoplay playsinline></video>
+    </div>
+
+    <button id="create-offer-btn">Create Offer</button>
+    <label>SDP Offer</label>
+    <textarea name="sdp-offer" id="sdp-offer"></textarea>
+
+    <button id="create-answer-btn">Create Answer</button>
+    <label>SDP Answer</label>
+    <textarea name="sdp-answer" id="sdp-answer" onclick=""></textarea>
+
+    <button id="add-answer-btn">Add Answer</button>
+</body>
+<script src="main.js"></script>
+</html>
